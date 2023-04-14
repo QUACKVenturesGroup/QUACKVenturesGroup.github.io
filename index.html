@@ -212,11 +212,11 @@
         const growth = ((currentValueTotal - costTotal) / costTotal) * 100;
         const profit = currentValueTotal - costTotal;
         growthElement.innerText = `Growth: ${growth.toFixed(2)}%`;
-        growthElement.style.color = growth >= 0 ? "green" : "red";
+        growthElement.style.color = growth >= 0 ? "#3a6c61" : "#d85d55";
         currentValueElement.innerText = `Portfolio Value: $${currentValueTotal.toFixed(2)}`;
         currentValueElement.style.color = "#3a6c61";
         profitElement.innerText = `Profit: $${profit.toFixed(2)}`;
-        profitElement.style.color = profit >= 0 ? "green" : "red";
+        profitElement.style.color = profit >= 0 ? "#3a6c61" : "#d85d55";
     </script>
 </body>
 
