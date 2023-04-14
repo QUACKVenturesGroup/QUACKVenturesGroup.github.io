@@ -62,9 +62,9 @@
     </style>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
         <div class="container">
-            <a class="navbar-brand" href="#" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,8 +76,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">MALLARD™ 0.2.4</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="#">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
@@ -92,6 +99,7 @@
             </div>
         </div>
     </nav>
+    <br/>
 
     <main role="main">
         <section id="featured-posts" class="container mt-5">
