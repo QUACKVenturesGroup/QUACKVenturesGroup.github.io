@@ -40,6 +40,50 @@
             background-color: #f8f9fa;
             padding: 2rem 0;
         }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
     </style>
 </head>
 <body>
@@ -100,14 +144,15 @@
     <div class="row">
         <div class="col-12 text-center py-3">
             <a href="https://duckslabs.com/subscribe" style="text-decoration: none;">
-                <div style="background-color: #3d1804; width: 970px; height: 90px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; border-radius: 4px;">
-                    <span style="font-family: 'M PLUS Rounded 1c', sans-serif; font-size: 24px; color: white;">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
-                    <button style="font-family: 'M PLUS Rounded 1c', sans-serif; font-size: 18px; color: white; background-color: orange; border-color: orange; padding: 10px 20px; border-radius: 4px; cursor: pointer;">Subscribe</button>
+                <div class="responsive-banner">
+                    <span class="responsive-banner-text">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
+                    <button class="responsive-banner-button">Subscribe</button>
                 </div>
             </a>
         </div>
     </div>
 </section>
+
 
 
 <!-- END AD -->
