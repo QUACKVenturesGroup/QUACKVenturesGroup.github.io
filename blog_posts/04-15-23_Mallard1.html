@@ -7,11 +7,26 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
-    <title>DuckSlabs.com</title>
+    <title>DuckSlabs Online</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
     <style>
+        h3 {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+        a {
+            color: #3d1804;
+        }
+
+        a:visited {
+            color: #3d1804;
+        }
+
+        a:hover {
+            color: #3d1804;
+        }
+
         .btn-orange {
             background-color: orange;
             border-color: orange;
@@ -85,6 +100,45 @@
   }
 }
 /* END OF AD STYLING */
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .featured-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #3d1804;
+        }
+        .post-preview img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .featured-posts-bg {
+            background-color: #ffe6af; /* Change this value to match the desired footer color */
+            padding: 1rem;
+            border: 4px solid #3d1804;
+        }
+        .ad-container {
+            margin-bottom: 1rem;
+        }
+        .ad {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .pagination .page-link {
+            background-color: #ffe6af;
+            color: #3d1804;
+            border-color: #3d1804;
+        }
+
+        .pagination .page-link:hover {
+            background-color: orange;
+            color: white;
+            border-color: orange;
+        }
     </style>
 </head>
 <body>
@@ -159,7 +213,32 @@
         	</div>
     	</section>
 	</main>
-
+<main role="main">
+        <section id="featured-posts" class="container mt-5 featured-posts-bg">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-13-23_WelcomeToDuckSlabs.html">
+                        <img src="featured_welcome.jpg" alt="Featured Post 1" class="featured-image">
+                        <h3>Welcome to DuckSlabs</h3>
+                        <p>A Satirical Fusion of Finance, AI, and LLM</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">
+                        <img src="mallard_featured.jpg" alt="Featured Post 2" class="featured-image">
+                        <h3>MALLARD™ Progress Update</h3>
+                        <p>Transforming Duck Cartoon Asset Evaluation</p>
+</a>
+</div>
+<div class="col-md-4">
+<a href="blogpost3.html">
+<img src="featured_portfolio.jpg" alt="Featured Post 3" class="featured-image">
+<h3>Open Portfolio Expansion</h3>
+<p>Asset Growth, Analysis, and Authentication </p>
+</a>
+</div>
+</div>
+</section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
