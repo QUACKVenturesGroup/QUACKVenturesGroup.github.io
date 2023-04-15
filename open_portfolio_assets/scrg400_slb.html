@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>DuckSlabs.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        .btn-orange:hover,
+        .btn-orange:focus,
+        .btn-orange:active {
+            background-color: darkorange;
+            border-color: darkorange;
+            color: white;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
+
+    h5 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#content">Explanitory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#cards">Slabs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>    
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>TITLE</h5>
+                <p>Uncle Scrooge</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>ISSUE</h5>
+                <p>400</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>MONTH</h5>
+                <p>February</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>YEAR</h5>
+                <p>2011</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>PUBLISHER</h5>
+                <p>BOOM! Kids</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>COVER PRICE</h5>
+                <p>3.99</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>GRADE</h5>
+                <p>9.0</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <h5>MALLARD 0.2.4 RATING</h5>
+                <p>Golden Egg</p>
+            </div>
+        </div>
+    </div>
+    <br/>
+<hr/>
+<br/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+<p>In this extraordinary celebration of 58 years of Uncle Scrooge, fans and collectors can immerse themselves in the milestone 400th issue, featuring an impressive 40-page oversized edition packed with classic stories, some published in the U.S. for the first time ever. The issue pays tribute to the perennial penny-pincher, Uncle Scrooge, and his unforgettable adventures in Duckburg. The legendary creators involved in this special issue include Carl Barks, Byron Erickson, Rudy Salvagnini, Daan Jippes, Giorgio Cavazzano, and Don Rosa, each contributing their unique talents to create an unforgettable experience for readers.</p>
+<p>In the heartwarming story "The Duck Man," Carl Barks makes a cameo appearance as himself, meeting Scrooge McDuck and his family in Duckburg. This delightful tribute to Scrooge's creator is masterfully crafted by modern artist Giorgio Cavazzano, capturing the essence of Barks' unforgettable characters. Next, readers will be captivated as the cunning witch, Magica de Spell, finally acquires Scrooge's Number One Dime in the classic story "Obsession." This tale, making its U.S. debut, showcases the brilliant artistry of Daan Jippes, bringing the adventure to life in stunning detail.</p>
+<p>Additionally, fans will be treated to three one-page gags by Carl Barks himself, which first appeared in the inaugural issue of Uncle Scrooge: "Osogood Silver Polish," "Coffee for Two," and "Soupline Eight." Each of these timeless classics captures the humor and wit that have made Uncle Scrooge a beloved character for generations. The regular edition of this milestone issue features a never-before-seen-in-the-U.S. cover by the legendary Don Rosa, and a brand-new piece by the illustrious Daan Jippes. The deluxe edition showcases Carl Barks' incredible oil painting "Money Lake" as its cover, making it an absolute must-have for collectors and fans alike.</p>
+<p>With its rich history and iconic characters, this 400th issue of Uncle Scrooge is a testament to the enduring appeal of the world of Duckburg and its inhabitants. As fans eagerly await its arrival in shops on February 2, 2011, the anticipation surrounding this milestone issue is palpable. Whether you're a long-time collector or a new fan discovering the adventures of Scrooge McDuck for the first time, this commemorative issue is a treasure not to be missed. Don't miss out on this golden opportunity to dive into the world of Uncle Scrooge and celebrate 58 years of thrilling adventures, timeless humor, and unforgettable characters.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="scrg400_slb.jpeg" alt="Portrait Style Image" class="img-fluid">
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
