@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
     <title>DuckSlabs.com</title>
@@ -23,12 +24,72 @@
             border-color: darkorange;
             color: white;
         }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
     </style>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
         <div class="container">
-            <a class="navbar-brand" href="#" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,8 +101,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">MALLARD™ 0.2.4</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
@@ -56,7 +124,7 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+    <br/>    <div class="container">
         <div class="row">
             <div class="col-md-6">
 <p>In a recent release, fans of the iconic character Darkwing Duck were excited to see the launch of a new comic book edition, Darkwing Duck #1, priced at $3.99 upon inclusion in the Open Portfolio with an authentication + shipping price that comes in at ~$36. The adventure publication, written by Amanda Deibert and featuring the artistic talent of Carlo Lauro, hit the shelves in January 2023. With a total of 32 pages, the comic book is published under multiple covers, including the DuckSlabs Open Portfolio acquired Cover A by David Nakayama (UPC: 725130324634 01011). The book received a MALLARD™ rating of <i>Campbell</i>i> utilizing MALLARD™ version 0.2.4. The story features the return of the Protector of St. Canard, the fearless caped defender who balances his double life as both the crime-fighting Darkwing Duck and the mild-mannered father, Drake Mallard.</p>
