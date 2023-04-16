@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>DuckSlabs Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        h3 {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+        a {
+            color: #3d1804;
+        }
+
+        a:visited {
+            color: #3d1804;
+        }
+
+        a:hover {
+            color: #3d1804;
+        }
+
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        .btn-orange:hover,
+        .btn-orange:focus,
+        .btn-orange:active {
+            background-color: darkorange;
+            border-color: darkorange;
+            color: white;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .featured-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #3d1804;
+        }
+        .post-preview img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .featured-posts-bg {
+            background-color: #ffe6af; /* Change this value to match the desired footer color */
+            padding: 1rem;
+            border: 4px solid #3d1804;
+        }
+        .ad-container {
+            margin-bottom: 1rem;
+        }
+        .ad {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .pagination .page-link {
+            background-color: #ffe6af;
+            color: #3d1804;
+            border-color: #3d1804;
+        }
+
+        .pagination .page-link:hover {
+            background-color: orange;
+            color: white;
+            border-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#content">Explanitory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#cards">Slabs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main role="main">
+        <section id="blog-post">
+            <div class="container">
+                <h1 class="mt-5">The Open Portfolio: A Unique Collection of Duck-Based Assets and an Experiment in Financial Analysis (Version 0.1.2)</h1>
+                <p><b>Meta Description</b>: Discover the Open Portfolio, an exclusive collection of duck-based assets managed by QUACK Venture LLC, and its role in shaping financial experiments and analysis.</p>
+                <p><b>Keywords</b>:  Open Portfolio, duck-based assets, QUACK Venture LLC, MALLARD software, financial experiments, time series, authenticated comics, video games</p>
+                <br/>
+                <img src="rockwell_hero.png" alt="Hero Image" class="hero-image img-fluid">
+                <p></p>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p><b>Introduction</b></p>
+                        <p>The Open Portfolio is a one-of-a-kind collection of duck-based assets, managed by QUACK Venture LLC. This remarkable assortment of authenticated comic books and video games is not only set to grow in numbers, but also plays a significant role in shaping financial experiments and analysis through its association with the MALLARD software. This article serves as an overview and landing page for the Open Portfolio, its contents, and its ongoing developments. Please note that the information provided here is for entertainment purposes only and should not be considered financial advice.</p>
+                        <p><b>Current Open Portfolio Holdings</b><br/>
+                        At present, the Open Portfolio boasts three authenticated comic books as its capital contributions:
+                        <br/>1. Uncle Scrooge 400 (CGC 9.0)<br/>2. Darkwing Duck 1 (CGC 9.8)<br/>Howard the Duck 19 (CGC 9.4)
+</div>
+<div class="col-md-4">
+<img src="rockwell2.png" alt="Image One" class="img-fluid mb-3 img-placeholder">
+</div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <img src="rockwell3.png" alt="Uncle Scrooge Comics" class="img-fluid mb-3 img-placeholder">
+    </div>
+    <div class="col-md-8">
+        <p><b>Planned Additions to the Open Portfolio</b></p>
+        <p>The Open Portfolio is expected to expand soon, with plans to add several more comic books and three video games, all authenticated. As the portfolio grows, it will reflect a diverse range of duck-based assets, increasing its relevance and appeal to collectors and enthusiasts alike.</p>
+        <p><b>Finalization and Future of the Open Portfolio</b></p>
+<p>UThe Open Portfolio is set to be finalized either when it reaches a total of 30 items or when the fourth quarter of 2023 comes to an end. Once it is finalized, no further additions will be made. It is important to note that there is no intention to ever liquidate the Open Portfolio. All items within the collection will remain under the ownership of QUACK Venture LLC, contributing to its complete range of assets under management.</p>
+    </div>
+</div>
+<center><img src="rockwell4.png" alt="DuckTales" class="img-fluid mb-3"></center>
+<p><b>Potential Value Growth and Legal Disclaimer</b></p>
+
+<p>While it is believed that the Open Portfolio may increase in value over time, this should not be misconstrued as a legal guarantee. This article and any subsequent updates are purely for entertainment purposes and should not be taken as financial advice. Investing in collectibles or any other assets carries inherent risks, and it is essential to consult a professional financial advisor before making any investment decisions.</p>
+
+<p><b>MALLARD™ Software and the Open Portfolio</b></p>
+
+<p>The Open Portfolio is intimately linked to the MALLARD™ software, which is currently in development. Once completed, MALLARD will enable users to conduct financial experiments, measurements, and time series analyses using the Open Portfolio as a basis for comparison and study. This innovative software is poised to transform the way people approach financial research, leveraging the unique composition of the Open Portfolio.</p>
+
+<p>The Open Portfolio, managed by QUACK Venture LLC, represents an extraordinary collection of duck-based assets and an intriguing opportunity for financial experimentation. As the portfolio grows and evolves, this page will serve as a comprehensive guide and secondary index for all related articles, providing an ongoing analysis of the Open Portfolio and its role in shaping the future of financial research. Stay tuned for updates as we track the progress of the Open Portfolio, now in version 0.1.2, and explore its fascinating relationship with the upcoming MALLARD software.</p>
+</div>
+</section>
+</main>
+<main role="main">
+        <section id="featured-posts" class="container mt-5 featured-posts-bg">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-13-23_WelcomeToDuckSlabs.html">
+                        <img src="featured_welcome.jpg" alt="Featured Post 1" class="featured-image">
+                        <h3>Welcome to DuckSlabs</h3>
+                        <p>A Satirical Fusion of Finance, AI, and LLM</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">
+                        <img src="mallard_featured.jpg" alt="Featured Post 2" class="featured-image">
+                        <h3>MALLARD™ Progress Update</h3>
+                        <p>Transforming Duck Cartoon Asset Evaluation</p>
+</a>
+</div>
+<div class="col-md-4">
+<a href="blogpost3.html">
+<img src="featured_portfolio.jpg" alt="Featured Post 3" class="featured-image">
+<h3>Open Portfolio Expansion</h3>
+<p>Asset Growth, Analysis, and Authentication </p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ATTEMPT AT AD INTEGRATION -->
+
+<section class="container">
+    <div class="row">
+        <div class="col-12 text-center py-3">
+            <a href="https://duckslabs.com/subscribe" style="text-decoration: none;">
+                <div class="responsive-banner">
+                    <span class="responsive-banner-text">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
+                    <button class="responsive-banner-button">Subscribe</button>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- END AD -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>&copy; 2023 <a href="https://github.com/quackventuresgroup/quackventuresgroup.github.io">QUACK Ventures Group, LLC</a>. All rights reserved.<br/>CONTACT: DuckSlabsOfficial@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.reddit.com/r/DuckSlabs/" target="_blank" class="mr-3">
+                    <i class="fab fa-reddit text-muted" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://twitter.com/DuckSlabs" target="_blank">
+                    <i class="fab fa-twitter text-muted" style="font-size: 24px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
