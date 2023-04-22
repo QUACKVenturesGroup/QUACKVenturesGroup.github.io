@@ -1,0 +1,305 @@
+<!-- BLOG POST TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZEK1DVRX4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JZEK1DVRX4');
+</script>
+<!-- END GOOGLED -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>DuckSlabs.com | The Absurdity Hedge: How Eccentric Investments Can Outpace Traditional Assets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        h3 {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+        a {
+            color: #3d1804;
+        }
+
+        a:visited {
+            color: #3d1804;
+        }
+
+        a:hover {
+            color: #3d1804;
+        }
+
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        .btn-orange:hover,
+        .btn-orange:focus,
+        .btn-orange:active {
+            background-color: darkorange;
+            border-color: darkorange;
+            color: white;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .featured-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #3d1804;
+        }
+        .post-preview img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .featured-posts-bg {
+            background-color: #ffe6af; /* Change this value to match the desired footer color */
+            padding: 1rem;
+            border: 4px solid #3d1804;
+        }
+        .ad-container {
+            margin-bottom: 1rem;
+        }
+        .ad {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .pagination .page-link {
+            background-color: #ffe6af;
+            color: #3d1804;
+            border-color: #3d1804;
+        }
+
+        .pagination .page-link:hover {
+            background-color: orange;
+            color: white;
+            border-color: orange;
+        }
+
+        .footer a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#content">Explanitory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#cards">Slabs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>
+
+    <main role="main">
+        <section id="blog-post">
+            <div class="container">
+                <h1 class="mt-5">The Absurdity Hedge: How Eccentric Investments Can Outpace Traditional Assets</h1>
+                <img src="mallard-hero-image.jpg" alt="Hero Image" class="img-fluid">
+<p>In the ever-evolving landscape of investments and asset management, there's a fascinating trend emerging that challenges conventional wisdom. While gold, silver, and real estate have long been considered the primary hedges against inflation, a new contender is making waves in the market: absurdity. Yes, you read that right – absurd and eccentric investments are proving to be just as effective, if not more so, at guarding against inflation and providing exceptional returns.</p>
+<p>In this strange odyssey, we shall embark on a journey through the realm of unorthodox investments, exploring thematically charged assets crafted to mock what should already be considered satirical. It's a curious game, where one may ponder what type of art isn't art? Indeed, it raises the question of where the boundaries of lunacy lie.</p>
+<p>Moreover, we will scrutinize the role of the affluent few who wield their power and influence to dictate value, ultimately driving up the price of these eccentric investments. It's a bizarre dance, where the line between madness and genius becomes blurred, and the very essence of what is considered valuable is thrown into question.</p>
+<p><b>The Unbridled Potential of Comic Books: Batman Adventures, No. 12 (1993)</b></p>
+
+<p>Comic books have morphed into a lucrative investment opportunity, defying all logic and reason. Take, for instance, Batman Adventures, No. 12 (1993) – it has witnessed a mind-boggling 26,000% increase in value since its debut. Stocks of well-known companies like Intel, which has grown approximately 15,000% since its IPO, pale in comparison to the returns generated by a comic book that happened to feature a character who had already graced the screens of Saturday morning cartoon shows. It begs the question: who in their right mind perceives this level of value in such an absurdity? This phenomenon demonstrates the untapped potential of unconventional assets, urging investors to venture beyond the limits of conventional wisdom.</p>
+
+<p><b>Exposing the Puppet Masters: The Creation of Value Drivers</b></p>
+
+<p>A crucial factor in the astounding success of these bizarre investments lies in the manipulation of value drivers. If a sufficient number of affluent individuals deem an item valuable, its price can soar to astronomical heights, enabling it to surpass the market.</p>
+
+<p>Take, for instance, the notorious 2013 sale of the "Balloon Dog (Orange)" by Jeff Koons, which fetched an eye-watering $58.4 million at a Christie's auction. The sale propelled Koons to the forefront of the art world, with wealthy collectors clamoring to get their hands on his works. This frenzy of demand was driven, in large part, by influential art dealer Larry Gagosian, who promoted Koons' creations and shaped their perception as must-have commodities.</p>
+
+<p>Similarly, in 2017, the art world was left reeling when Leonardo da Vinci's "Salvator Mundi" sold for a record-breaking $450.3 million at a Christie's auction. The astronomical price tag was the result of an intense bidding war between high-profile collectors, including Saudi Prince Bader bin Abdullah bin Mohammed bin Farhan al-Saud, who ultimately secured the piece. This jaw-dropping acquisition, later revealed to be orchestrated by the Saudi royal family, not only drove up the value of the artwork itself but also influenced the market's perception of what constitutes value.</p>
+
+<p>These examples shed light on how wealthy elites, through their participation in a charade of smoke and mirrors, wield the power to dictate what is considered valuable and what is not. By pulling the strings behind the scenes, they not only inflate the prices of unconventional assets but also shape the market's perception of value itself.</p>
+
+<p><b>Unmasking the Farce: Embracing the Absurdity Hedge</b></p>
+<p>Unconventional investments continue to showcase their extraordinary potential to outstrip traditional assets, leaving investors to ponder the merits of adopting the absurdity hedge. Delving into this realm of madness is not about chasing profits or conventional wisdom; it's about challenging the status quo and defying an institution governed by those who manipulate the social fabric, driving you to feel like a failure.</p>
+
+<p>Embrace the absurdity hedge as a rebellion, a sardonic mockery of the system – a living, breathing testament to satirical curiosity that thumbs its nose at the powers that be, while flipping a defiant middle finger at the puppet masters who seek to control and dominate the investment world.</p>
+
+<p>Moreover, by valuing cartoon ducks and treating them with an almost religious fanaticism as if they were profit-generating entities, we may not necessarily elevate these assets to astronomical heights. Still, we can demonstrate that something deemed absurd by the very people pushing it can operate within the same infrastructure as other alternative assets propped up by the insane, cruel, and greedy. In doing so, we can expose the fact that the layman is being deceived.</p>
+
+<p><b>The Grand Unveiling: Absurdity as the New Vanguard of Investments</b></p>
+<p>The investment landscape is in the midst of a monumental transformation, and as the market continues to evolve, so too must our understanding of what makes an asset valuable. It is important to clarify that this exploration of absurdity does not undermine artists, satire, or absurdity itself. In fact, these elements stand as some of the most vital American values that have been increasingly overshadowed by self-serious influencers who believe their every action is worthy of being recorded and shared with millions of "fans."</p>
+
+<p>The average person may feel overwhelmed by the madness of it all, but this is not a universal sentiment. By considering economics, finance, and trading through a lens that scoffs at the power brokers running the financial world, we can challenge their authority and expose their schemes. Embracing the absurdity hedge is not an act of devaluation, but rather a celebration of the very essence of satire and a declaration that the regular person sees through the charade perpetuated by the so-called masters of the finance realm.</p>
+
+        	</div>
+    	</section>
+	</main>
+<main role="main">
+        <section id="featured-posts" class="container mt-5 featured-posts-bg">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-13-23_WelcomeToDuckSlabs.html">
+                        <img src="featured_welcome.jpg" alt="Featured Post 1" class="featured-image">
+                        <h3>Welcome to DuckSlabs</h3>
+                        <p>A Satirical Fusion of Finance, AI, and LLM</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">
+                        <img src="mallard_featured.jpg" alt="Featured Post 2" class="featured-image">
+                        <h3>MALLARD™ Progress Update</h3>
+                        <p>Transforming Duck Cartoon Asset Evaluation</p>
+</a>
+</div>
+<div class="col-md-4">
+<a href="https://duckslabs.com/blog_posts/04-16-23_OpenPortfolio.html">
+<img src="featured_portfolio.jpg" alt="Featured Post 3" class="featured-image">
+<h3>Open Portfolio Expansion</h3>
+<p>Asset Growth, Analysis, and Authentication </p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ATTEMPT AT AD INTEGRATION -->
+
+<section class="container">
+    <div class="row">
+        <div class="col-12 text-center py-3">
+            <a href="https://quackventuresgrp.gumroad.com/l/lbkouu" style="text-decoration: none;">
+                <div class="responsive-banner">
+                    <span class="responsive-banner-text">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
+                    <button class="responsive-banner-button">Subscribe</button>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- END AD -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>&copy; 2023 <a href="https://github.com/quackventuresgroup/quackventuresgroup.github.io">QUACK Ventures Group, LLC</a>. All rights reserved.<br/>CONTACT: DuckSlabsOfficial@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.reddit.com/r/DuckSlabs/" target="_blank" class="mr-3">
+                    <i class="fab fa-reddit text-muted" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://twitter.com/DuckSlabs" target="_blank">
+                    <i class="fab fa-twitter text-muted" style="font-size: 24px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
