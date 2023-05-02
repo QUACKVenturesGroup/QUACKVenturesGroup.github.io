@@ -1,0 +1,302 @@
+<!-- BLOG POST TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZEK1DVRX4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JZEK1DVRX4');
+</script>
+<!-- END GOOGLED -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>DuckSlabs.com | SLVR? GLD? Shut the WAUGH up!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        h3 {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+        a {
+            color: #3d1804;
+        }
+
+        a:visited {
+            color: #3d1804;
+        }
+
+        a:hover {
+            color: #3d1804;
+        }
+
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        .btn-orange:hover,
+        .btn-orange:focus,
+        .btn-orange:active {
+            background-color: darkorange;
+            border-color: darkorange;
+            color: white;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .featured-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #3d1804;
+        }
+        .post-preview img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .featured-posts-bg {
+            background-color: #ffe6af; /* Change this value to match the desired footer color */
+            padding: 1rem;
+            border: 4px solid #3d1804;
+        }
+        .ad-container {
+            margin-bottom: 1rem;
+        }
+        .ad {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .pagination .page-link {
+            background-color: #ffe6af;
+            color: #3d1804;
+            border-color: #3d1804;
+        }
+
+        .pagination .page-link:hover {
+            background-color: orange;
+            color: white;
+            border-color: orange;
+        }
+
+        .footer a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#content">Explanitory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#cards">Slabs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>
+
+    <main role="main">
+        <section id="blog-post">
+            <div class="container">
+                <h1 class="mt-5">SLVR? GLD? Shut the WAUGH up!</h1>
+                <img src="hero-image_gld.jpg" alt="Hero Image" class="img-fluid">
+<p><b>Listening to Talking Heads again are we?</b></p>
+
+<p>As bank downfalls, looming recessions, and a seemingly impending tech recession shake the finance industry, talking heads are frantically recommending retail investors shift their focus to the age-old safe havens of gold and silver. However, given the absurdity of investing in precious metals in 2023, one might argue you'd be just as well off putting your money into something entertaining and downright hilarious.</p>
+
+<p>Keep in mind that since President Richard Nixon abolished the gold standard in 1971, the U.S. dollar is no longer convertible into gold. While people used to buy gold bars as a hedge against inflation, modern investors tend to choose stocks or mutual funds that invest in gold. Nevertheless, with the dollar's detachment from gold, investing in this precious metal offers little protection against inflation. In truth, whether you're investing in gold or something else entirely, you're still making an uneducated opinion in an attempt to be responsible – a sad reflection of 21st century capitalism.</p>
+
+<p><b>Let me just run the numbers here, aaaaaaand it's stagnant.</b></p>
+<p>During the 2008 financial crisis, gold gained traction as a safe-haven asset. As the crisis unfolded, investors scrambled to park their money in assets they perceived to be stable and secure. As a result, gold prices soared from around $800 per ounce in early 2008 to nearly $1,200 per ounce by the end of 2009. However, this impressive performance wasn't necessarily driven by gold's inherent value or any newfound industrial utility. Instead, it was largely fueled by consumer panic and a growing distrust in traditional financial institutions.
+
+<p>For instance, when Lehman Brothers collapsed in September 2008, sparking fears of a domino effect among financial institutions, investors flocked to gold as a refuge from the chaos. The belief that gold would retain its value even as the stock market plunged led to a surge in demand, driving up prices. This rush to gold wasn't based on any tangible benefits of the precious metal, but rather the widespread panic and uncertainty that gripped the market during the crisis.
+
+<p>Another example of consumer panic influencing gold prices occurred when the Federal Reserve implemented its quantitative easing program to stimulate the economy. Concerned that this unprecedented level of money printing would lead to rampant inflation and further devaluation of the dollar, investors turned to gold as a hedge against these potential consequences. Again, the positive movement in gold prices wasn't due to any intrinsic value or industrial utility, but simply a reaction to the fear and uncertainty that permeated the financial landscape at the time.</p>
+
+<p>Steve Gerber and Carl Barks were revolutionary in their own right. Gerber's Howard the Duck pushed the envelope, challenging industry norms and paving the way for more daring storytelling. Barks, on the other hand, solidified the world of Disney ducks, creating a legacy of rich adventures and unforgettable characters. Together, these two artists changed the landscape of comic book ducks forever. So, the next time you pick up a comic featuring a quacking protagonist, remember the unsung heroes behind these tales, and appreciate the rebellious spirit that shaped them..</p>
+
+<p>To illustrate the difference in investment outcomes, let's consider a hypothetical scenario: In 2008, you decide to invest $10,000 in either GLD (the gold ETF) or Apple stock. By 2015, if you had chosen to put your money into GLD, your investment would have grown to approximately $14,500, assuming the gold price peaked at around $1,200 per ounce. On the other hand, if you had invested that same $10,000 in Apple stock in 2008, your investment would have skyrocketed to over $100,000 by 2015. This stark contrast in returns demonstrates that even amidst market turmoil and pessimistic financial chatter, investing in a beloved and innovative company like Apple can yield significantly greater long-term rewards than seeking refuge in traditional safe-haven assets like gold.</p>
+
+<p><b>Super Mario Bros? This ain't no video game! (It's a financial vehicle?!)</b></p>
+    <p>It's worth taking a trip down memory lane and looking at the value of some unconventional collectibles. For instance, in 2007, you could have purchased a sealed NES Super Mario Bros. game on eBay for under $500. Fast forward to August 2021, and a well-preserved sealed copy of the same game went to auction for a staggering $2 million. That's a jaw-dropping return of 400,000% on the initial investment of $500.</p>
+
+<p>The incredible return on that particular collectible item, while not guaranteed and subject to market trends, is a clear example of how sometimes, investing in wacky, fun, and nostalgic items can yield substantial gains. Of course, this isn't financial advice, but it does highlight that if you're adamant about hedging against your stocks, bonds, and securities, you might be just as wise to consider non-traditional investments, rather than solely following the recommendations of the talking heads on TV.</p>
+
+<p>    That being said, the essence of capitalism lies in investing in companies that you find interesting, and that deliver a product or service you use and believe in. By supporting businesses that align with your values and interests, you're actively contributing to the growth and success of those companies. Instead of being swayed by fear or the cacophony of financial pundits, consider taking a more personal and informed approach to your investment choices.</p>
+
+<p>Remember, this isn't financial advice, but the simplest way to think about investing is the same way a comic book collector would think about buying comics. You buy your Spider-Man comic that you think is going to be appreciated because it has an amazing first appearance of, let's say, a hilarious wise-cracking duck with a penchant for punk rock ladies and syrup drenched waffles. You hold onto it and think, "Maybe someday I'll sell this if people learn to appreciate this character as much as I do. If they don't, screw it, this was totally worth four of my hard-earned dollars!" The same principle can be applied to stocks, also known as securities. Buy what you like, not what some old boomer tells you is a must-buy to hedge against inflation. So, to those naysayers, we say, "Shut up, sir!"</p>
+
+        	</div>
+    	</section>
+	</main>
+<main role="main">
+        <section id="featured-posts" class="container mt-5 featured-posts-bg">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-13-23_WelcomeToDuckSlabs.html">
+                        <img src="featured_welcome.jpg" alt="Featured Post 1" class="featured-image">
+                        <h3>Welcome to DuckSlabs</h3>
+                        <p>A Satirical Fusion of Finance, AI, and LLM</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">
+                        <img src="mallard_featured.jpg" alt="Featured Post 2" class="featured-image">
+                        <h3>MALLARD™ Progress Update</h3>
+                        <p>Transforming Duck Cartoon Asset Evaluation</p>
+</a>
+</div>
+<div class="col-md-4">
+<a href="https://duckslabs.com/blog_posts/04-16-23_OpenPortfolio.html">
+<img src="featured_portfolio.jpg" alt="Featured Post 3" class="featured-image">
+<h3>Open Portfolio Expansion</h3>
+<p>Asset Growth, Analysis, and Authentication </p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ATTEMPT AT AD INTEGRATION -->
+
+<section class="container">
+    <div class="row">
+        <div class="col-12 text-center py-3">
+            <a href="https://duckslabs.com/duckslabs_illustrated/ds_illustrated.html" style="text-decoration: none;">
+                <div class="responsive-banner">
+                    <span class="responsive-banner-text">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
+                    <button class="responsive-banner-button">Subscribe</button>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- END AD -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>&copy; 2023 <a href="https://github.com/quackventuresgroup/quackventuresgroup.github.io">QUACK Ventures Group, LLC</a>. All rights reserved.<br/>CONTACT: DuckSlabsOfficial@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.reddit.com/r/DuckSlabs/" target="_blank" class="mr-3">
+                    <i class="fab fa-reddit text-muted" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://twitter.com/DuckSlabs" target="_blank">
+                    <i class="fab fa-twitter text-muted" style="font-size: 24px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
