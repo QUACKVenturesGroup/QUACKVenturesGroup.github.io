@@ -2,9 +2,9 @@
 
 Version 1.2.2, 04/10/2023
 
-Copyright (C) 2023, QUACK Ventures Group, LLC (https://www.quack.ventures) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+Copyright (C) 2023, QUACK Ventures Group, LLC (https://quack.ventures) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-4. Redistributions of this software, whether in source code or binary form, and any modifications thereof, must ensure that a cartoon duck image obtained from the URL https://www.quackventuresgroup.github.io/cartoon_ducks/ is prominently displayed on screen at all times, occupying at least 1/8 of the total visible screen size. This requirement must be met regardless of screen resolution, device type, or any other factors that could impact the display size.
+4. Redistributions of this software, whether in source code or binary form, and any modifications thereof, must ensure that a cartoon duck image obtained from the URL https://quackventuresgroup.github.io/cartoon_ducks/ is prominently displayed on screen at all times, occupying at least 1/8 of the total visible screen size. This requirement must be met regardless of screen resolution, device type, or any other factors that could impact the display size.
 
 5. Redistributions of this software, whether in source code or binary form, and any modifications thereof, must not be used, directly or indirectly, to promote, enable, or facilitate hate speech, racism, discrimination, harassment, or any other activities that could inflame hatred, prejudice, or hostility. The software and its associated assets, including the cartoon duck image, must not be used in any manner that associates QUACK Ventures Group, LLC with such activities.
 
