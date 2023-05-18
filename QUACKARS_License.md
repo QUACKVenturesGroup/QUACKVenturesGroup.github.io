@@ -1,6 +1,6 @@
 **QUACK Ventures Group, LLC Absurdly Restrictive Software (QUACKARS) License**
 
-Version 1.2.2, 04/10/2023
+Version 1.2.3, 04/10/2023; (UPDATED: 05/18/2023)
 
 Copyright (C) 2023, QUACK Ventures Group, LLC (https://quack.ventures) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
