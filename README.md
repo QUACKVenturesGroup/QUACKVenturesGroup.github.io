@@ -2,7 +2,7 @@
 
 # Home to Satire Based Investing
 
-Welcome to QUACK Ventures Group, LLC. Our primary ambition is harnessing the transformative power of large language models and big data analytics to reinterpret the investment potential in unconventional sectors: confectionery, playful media, and comic satirical content. Much like the early days of the internet, the adoption of these AI technologies is burgeoning, yet their full potential remains untapped, misunderstood, and poorly framed by CEOs with limited vision.
+Welcome to QUACK Ventures Group, LLC. Our primary ambition is harnessing the transformative power of large language models and big data analytics to reinterpret the investment potential in unconventional sectors: confectionery, playful media, and comic satirical content. Much like the early days of the internet, the adoption of AI technologies is burgeoning, yet their full potential remains untapped, misunderstood, and poorly framed by CEOs with limited vision.
 
 Artificial intelligence isn't here to supplant artists and writers; instead, QUACK Ventures utilizes AI and big data tools as allies, enhancing their creative potential. We dive into overlooked realms of commercial creativity - comic books, video games, and cartoons - not just to draw out their latent capitalist value, but also to recognize the historical significance of these artistic endeavors.
 
