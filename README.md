@@ -2,11 +2,13 @@
 
 # Home to Satire Based Investing
 
-Welcome to the digital home of QUACK Ventures Group, LLC, where our primary objective is to scrutinize the AI revolution as it unfolds through the proliferation of large language models. In recent times, these technologies have experienced an upswing in adoption rates, reminiscent of the early days of the internet, and their transformative potential has yet to be fully grasped by the masses.
+Welcome to QUACK Ventures Group, LLC. Our primary ambition is harnessing the transformative power of large language models and big data analytics to reinterpret the investment potential in unconventional sectors: confectionery, playful media, and caricatured non-serious media. Much like the early days of the internet, the adoption of these AI technologies is burgeoning, yet their full potential remains untapped.
 
-Creative minds such as artists and writers will undoubtedly conceive ideas that would have been impossible without the aid of artificial intelligence. One such example is the satirical exploration of postmodern capital systems, which, in their absurdity, manage to generate more wealth than ventures that address humanity's most pressing concerns, including education, environmental stewardship, and hunger alleviation (Baudrillard, 1988; Schiller, 2000).
+Artificial intelligence isn't here to supplant artists and writers; instead, QUACK Ventures utilizes AI and big data tools as allies, enhancing their creative potential. We dive into overlooked realms of commercial creativity - comic books, video games, and cartoons - not just to draw out their latent capitalist value, but also to recognize the historical significance of these artistic endeavors.
 
-QUACK Ventures Group, LLC endeavors to provide a lucid perspective on the bewildering capitalist infrastructure, examining it through a lens that combines both whimsy and a genuine reflection of extant investment vehicles. Our projects encompass the development of open portfolios, open-source software, and the publication of numerous AI-assisted literary works. By harnessing human-guided AI, we strive to produce content that illuminates the pervasive madness residing in the most advanced corners of our world (Kesey, 1962; Hesse, 1927).
+By assigning a quantifiable value to these unique narrative-driven assets, we celebrate their inherent artistic merit, using AI as a tool to amplify rather than diminish their significance. Through our lens, commercial creativity is no longer simply entertainment but a robust investment frontier, brimming with opportunities.
+
+QUACK Ventures Group, LLC endeavors to provide a lucid perspective on the bewildering capitalist infrastructure, examining it through a lens that combines both whimsy and a genuine reflection of extant investment vehicles. Our projects encompass the development of open portfolios, proprietary portfolios, and the publication of collectible prospectus meta media.
 
 This GitHub repository will serve as a launchpad for a diverse array of ventures, each one more outlandish than its predecessor. We cordially invite you to join us on this fascinating journey.
 
