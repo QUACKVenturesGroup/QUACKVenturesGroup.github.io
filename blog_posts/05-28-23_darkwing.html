@@ -1,0 +1,305 @@
+<!-- BLOG POST TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZEK1DVRX4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JZEK1DVRX4');
+</script>
+<!-- END GOOGLED -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>DuckSlabs.com | The Darkwing Legacy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"> 
+    <style>
+        h3 {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+        a {
+            color: #3d1804;
+        }
+
+        a:visited {
+            color: #3d1804;
+        }
+
+        a:hover {
+            color: #3d1804;
+        }
+
+        .btn-orange {
+            background-color: orange;
+            border-color: orange;
+            color: white;
+        }
+
+        .btn-orange:hover,
+        .btn-orange:focus,
+        .btn-orange:active {
+            background-color: darkorange;
+            border-color: darkorange;
+            color: white;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .dropdown-item:active {
+            background-color: orange;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+/* Responsive Banner USE ON PAGES WITH ADS ONLY*/
+.responsive-banner {
+  background-color: #3d1804;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.responsive-banner-text {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+.responsive-banner-button {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .responsive-banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .responsive-banner-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+/* END OF AD STYLING */
+        body {
+            font-family: "Times New Roman", serif;
+        }
+        .featured-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #3d1804;
+        }
+        .post-preview img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .featured-posts-bg {
+            background-color: #ffe6af; /* Change this value to match the desired footer color */
+            padding: 1rem;
+            border: 4px solid #3d1804;
+        }
+        .ad-container {
+            margin-bottom: 1rem;
+        }
+        .ad {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .pagination .page-link {
+            background-color: #ffe6af;
+            color: #3d1804;
+            border-color: #3d1804;
+        }
+
+        .pagination .page-link:hover {
+            background-color: orange;
+            color: white;
+            border-color: orange;
+        }
+
+        .footer a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://duckslabs.com" style="font-family: 'M PLUS Rounded 1c', sans-serif;">DuckSlabs.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com/blog_posts/blog_landing.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MALLARD™ 0.2.4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://duckslabs.com/mallard.html">The MALLARD™ Whitepaper</a>
+                            <a class="dropdown-item" href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">The State of MALLARD™</a>
+                            <a class="dropdown-item" href="#">MALLARD™ Latest Build</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#stocks">Open Portfolio 0.1.2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#content">Explanitory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckslabs.com#cards">Slabs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>
+
+    <main role="main">
+        <section id="blog-post">
+            <div class="container">
+                <h1 class="mt-5">The Legacy of Darkwing Duck: A Superhero's Journey in Pop Culture</h1>
+                <img src="hero-image_darkwing.jpg" alt="Hero Image" class="img-fluid">
+<p>Darkwing Duck, a superhero-themed animated series, made a lasting impression on its audience during its broadcast run. Aired under the banner of the Disney Afternoon block, the series marked a significant departure from the usual adventure shows of its time. Its unique blend of action, humor, and its satirical take on superhero tropes left a lasting impression on viewers. This post aims to explore the enduring legacy of Darkwing Duck and its impact on various mediums, from video games to comic books.
+
+<p>Darkwing Duck chronicled the adventures of its eponymous superhero, accompanied by his sidekick and pilot, Launchpad McQuack, a character borrowed from another Disney classic, DuckTales. The series also introduced us to Drake Mallard, Darkwing's secret identity, a parody of Kent Allard, the alter ego of the iconic character, the Shadow.
+
+<p>Balancing his thirst for fame with his paternal responsibilities towards his adopted daughter, Gosalyn, Darkwing Duck resided in an unassuming suburban house, adjacent to the delightfully clueless Muddlefoot family. The conflict between Darkwing's desire for recognition and his need to do good formed the central theme of most episodes. This character conflict, coupled with slapstick battles against a range of supervillains and street criminals, added a new flavor to the Disney Afternoon series.
+
+<p>Darkwing Duck was an unabashed genre parody, layered with references to superhero, pulp adventure, or super-spy fiction. Every element of Darkwing Duck, from his costume to his gas gun, echoed the traits of pulp heroes and Golden Age superheroes. With its playful parody of Gotham City, St. Canard (French for "duck"), the show's fictional city, added another layer to its meta-fictional charm.
+
+<p>Beyond its popular TV run, Darkwing Duck also left its mark in the realm of video games. Capcom released a Darkwing Duck game in 1992, introducing it to the Nintendo Entertainment System and the Game Boy. The game, essentially a platform side-scroller, allowed fans to step into the shoes of their favorite superhero duck. Other versions of the game made their way to the TurboGrafx-16 and touchscreen mobile phones, further extending the reach of the franchise. Disney's Darkwing Duck even earned recognition in the Disney Infinity series, with power discs and character appearances honoring the popular character.
+
+<p>The legacy of Darkwing Duck extends to the world of comic books as well. Disney Comics published a four-issue Darkwing Duck mini-series in 1991, coinciding with the series' syndicated premiere. Despite Disney Comics' implosion, Darkwing Duck stories remained a staple in Disney Adventures magazine from 1991 to 1996.
+
+<p>BOOM! Studios took up the mantle in 2010, announcing a four-issue miniseries titled "The Duck Knight Returns". Due to overwhelming fan response, the miniseries morphed into an ongoing title. These comics added depth to the Darkwing Duck universe, tying it closely to the parent show DuckTales and introducing familiar characters like Magica De Spell and Scrooge McDuck. However, the series came to an end in 2011 when BOOM! Studios prematurely lost the Disney Comics license.
+
+<p>Undeterred by the loss, Darkwing Duck bounced back in 2016 with a new comic series from Joe Books. The first issue, titled "Orange is the New Purple", saw the return of Aaron Sparrow and James Silvani, key contributors to the BOOM! Studios series. Despite its cancellation after just eight issues, this series reinforced the enduring popularity of the Darkwing Duck franchise.</p>
+
+<p>IDW Publishing added to the legacy in 2018, announcing the reprint of the Boom! Studios series in Disney's Afternoon Giant. This testament to the series' enduring popularity prompted renewed interest in the tales of St. Canard's vigilante.
+
+<p>Throughout its comic run, Darkwing Duck found itself at the center of a creative controversy. Editor Aaron Sparrow was often credited for reviving the series, claiming to have plotted the first arc and conceived many story arcs that followed. The artist James Silvani frequently credited Sparrow with not only rejuvenating the series but also ghost-writing much of it. In contrast, series writer Ian Brill disputed these claims.
+
+<p>Darkwing Duck's creator, Tad Stones, also publicly acknowledged Sparrow's role in reviving the character. This added further validity to Sparrow's claims. Despite Brill's efforts to stake a claim, Sparrow's contribution to the series remains a significant aspect of its legacy.
+
+<p>In 2023, Dynamite Entertainment breathed new life into the Darkwing Duck comic series. Spearheaded by Amanda Deibert and Carlo Cid Lauro, this new series, though differing from previous renditions, has managed to capture the quintessential charm of Darkwing Duck while simultaneously expanding the franchise.
+
+<p>The impact of Darkwing Duck reaches far beyond its original broadcast. Its genre parody, layered with numerous references to superhero, pulp adventure, and super-spy fiction, set it apart from its contemporaries. It has not only inspired a dedicated fanbase but also left its mark across various mediums.
+
+<p>From video games that allowed fans to engage with the adventures of their beloved character to comic books that expanded the narrative universe of Darkwing Duck, the legacy of this caped vigilante continues to thrive. Despite numerous shifts in creative ownership and interpretation, Darkwing Duck remains a beloved figure in pop culture, encapsulating the whimsical charm of Disney's storytelling.
+
+<p>In conclusion, Darkwing Duck is more than just an animated superhero series; it's a pivotal part of Disney's rich legacy. By combining elements of parody with captivating storylines, the show has solidified its position as an iconic piece of animation history. Its impact on video games and comic books further underscores the versatility and enduring popularity of this superhero duck. As we look towards the future, it's safe to say that the adventures of Darkwing Duck will continue to entertain and inspire for generations to come.
+        	</div>
+    	</section>
+	</main>
+<main role="main">
+        <section id="featured-posts" class="container mt-5 featured-posts-bg">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-13-23_WelcomeToDuckSlabs.html">
+                        <img src="featured_welcome.jpg" alt="Featured Post 1" class="featured-image">
+                        <h3>Welcome to DuckSlabs</h3>
+                        <p>A Satirical Fusion of Finance, AI, and LLM</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://duckslabs.com/blog_posts/04-15-23_Mallard1.html">
+                        <img src="mallard_featured.jpg" alt="Featured Post 2" class="featured-image">
+                        <h3>MALLARD™ Progress Update</h3>
+                        <p>Transforming Duck Cartoon Asset Evaluation</p>
+</a>
+</div>
+<div class="col-md-4">
+<a href="https://duckslabs.com/blog_posts/04-16-23_OpenPortfolio.html">
+<img src="featured_portfolio.jpg" alt="Featured Post 3" class="featured-image">
+<h3>Open Portfolio Expansion</h3>
+<p>Asset Growth, Analysis, and Authentication </p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ATTEMPT AT AD INTEGRATION -->
+
+<section class="container">
+    <div class="row">
+        <div class="col-12 text-center py-3">
+            <a href="https://duckslabs.com/duckslabs_illustrated/ds_illustrated.html" style="text-decoration: none;">
+                <div class="responsive-banner">
+                    <span class="responsive-banner-text">Unlock the World of DuckSlabs Illustrated - Subscribe Now!</span>
+                    <button class="responsive-banner-button">Subscribe</button>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- END AD -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>&copy; 2023 <a href="https://github.com/quackventuresgroup/quackventuresgroup.github.io">QUACK Ventures Group, LLC</a>. All rights reserved.<br/>CONTACT: DuckSlabsOfficial@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.reddit.com/r/DuckSlabs/" target="_blank" class="mr-3">
+                    <i class="fab fa-reddit text-muted" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://twitter.com/DuckSlabs" target="_blank">
+                    <i class="fab fa-twitter text-muted" style="font-size: 24px;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
